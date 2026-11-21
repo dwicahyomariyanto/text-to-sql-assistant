@@ -1,0 +1,33 @@
+{
+  "final_train_loss": 0.030521079897880554,
+  "final_eval_loss": 0.04360850900411606,
+  "steps": 313,
+  "hub_model_id": "dwicahyom16/qwen2.5-coder-3b-text2sql-qlora",
+  "config": {
+    "model_name": "unsloth/Qwen2.5-Coder-3B-Instruct-bnb-4bit",
+    "max_seq_length": 512,
+    "lora_r": 16,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "batch_size": 4,
+    "grad_accum": 4,
+    "epochs": 1,
+    "learning_rate": 0.0002,
+    "lr_scheduler": "cosine",
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.01,
+    "seed": 42,
+    "save_steps": 100,
+    "hf_username": "dwicahyom16",
+    "hub_repo_name": "qwen2.5-coder-3b-text2sql-qlora"
+  }
+}

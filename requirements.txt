@@ -1,0 +1,14 @@
+# Versions recorded automatically from the Google Colab (T4) environment during training: Evaluation_submission/results/environment.txt
+# Note: torch is preinstalled on Colab; "+cu130" marks the Colab CUDA build (do not install it manually on other machines).
+unsloth==2026.11.6
+transformers==5.17.0
+trl==1.15.0
+peft==0.21.2
+torch==2.14.1
+datasets==4.8.5
+bitsandbytes==0.50.2
+accelerate==1.15.0
+gradio==6.31.0
+matplotlib==3.10.0
+pandas
+pytest

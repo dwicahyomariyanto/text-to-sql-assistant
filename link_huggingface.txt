@@ -1,0 +1,1 @@
+https://huggingface.co/dwicahyom16/qwen2.5-coder-3b-text2sql-qlora

@@ -1,0 +1,38 @@
+{
+  "n": 300,
+  "exact_match": 0.7533,
+  "execution_match": 0.8615,
+  "execution_match_nonempty": 0.8667,
+  "n_gold_executable": 296,
+  "n_gold_nonempty": 270,
+  "pred_error_rate": 0.0,
+  "by_category": {
+    "simple": {
+      "n": 217,
+      "exact_match": 0.7788,
+      "execution_match": 0.8605,
+      "execution_match_nonempty": 0.8684,
+      "n_gold_executable": 215,
+      "n_gold_nonempty": 190,
+      "pred_error_rate": 0.0
+    },
+    "aggregation": {
+      "n": 79,
+      "exact_match": 0.6962,
+      "execution_match": 0.8701,
+      "execution_match_nonempty": 0.8701,
+      "n_gold_executable": 77,
+      "n_gold_nonempty": 77,
+      "pred_error_rate": 0.0
+    },
+    "join": {
+      "n": 4,
+      "exact_match": 0.5,
+      "execution_match": 0.75,
+      "execution_match_nonempty": 0.6667,
+      "n_gold_executable": 4,
+      "n_gold_nonempty": 3,
+      "pred_error_rate": 0.0
+    }
+  }
+}
